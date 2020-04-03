@@ -3,6 +3,7 @@ def solution(n, m):
     answer.sort()
 
     ## 최대 공약수 구하기
+
     X = answer[0]
     Y = answer[1]
     while True:
