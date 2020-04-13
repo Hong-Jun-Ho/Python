@@ -1,4 +1,4 @@
-
+## 프로그래머스 Level 1 2016년 문제
 def solution(a, b):
     arr = ["FRI", "SAT","SUN", "MON", "TUE", "WED", "THU"]
     month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
