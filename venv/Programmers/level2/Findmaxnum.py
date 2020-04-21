@@ -23,4 +23,4 @@ def solution(numbers):
     return answer
 
     ## 정답확인
-print(solution([0, 0, 0, 0000, 0]))
+print(solution([3, 321, 342, 33, 1]))
