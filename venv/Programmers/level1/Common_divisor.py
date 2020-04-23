@@ -15,6 +15,6 @@ def solution(n, m):
             X = R
 
     ## 최소 공배수 구하기
-    X2= n*m/X
+    X2= n*m/X 
 
     return [X,X2]
