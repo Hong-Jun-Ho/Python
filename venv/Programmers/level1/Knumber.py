@@ -1,3 +1,4 @@
+## level1 - k번째 수 
 def solution(array, commands):
     answer = []
     for e in range(len(commands)):
