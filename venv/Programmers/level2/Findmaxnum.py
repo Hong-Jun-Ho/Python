@@ -22,5 +22,5 @@ def solution(numbers):
     print(answer)
     return answer
 
-    ## 정답확인
+    ## 정답확인 
 print(solution([3, 321, 342, 33, 1]))
