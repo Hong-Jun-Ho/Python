@@ -17,4 +17,4 @@ print(solution("Zbcdefg"))
 ## 다른사람의 풀이
 
 ## def solution(s):
-##     return ''.join(sorted(s, reverse=True))
+##     return ''.join(sorted(s, reverse=True)) 
