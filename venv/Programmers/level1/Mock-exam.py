@@ -25,6 +25,6 @@ def solution(answers):
 
 
 
-    return winner
+    return winner 
 
 print(solution([1,2,3,4,5]))
