@@ -13,6 +13,6 @@ def solution(strings, n):
     for i in sortedDict:
         answer.append(i[0])
     return answer
-
+ 
 
 print(solution(["abce", "abcd", "cdx"], 2))
