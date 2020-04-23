@@ -6,5 +6,5 @@ def solution(a, b):
     answer = 0
     for e in range(arr[0],arr[1]+1):
         answer+=e
-
+ 
     return answer
