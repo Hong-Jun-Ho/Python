@@ -20,4 +20,4 @@ def solution(n):
     return count
 
 
-print(solution(10))
+print(solution(10)) 
