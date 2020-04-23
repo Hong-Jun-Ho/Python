@@ -19,6 +19,6 @@ def solution(participant, completion):
             print(b)
             if(a != b):
                 return c
-    return None
+    return None 
 
 print(solution(["eand", "kiki", "kiki"],["eand", "kiki"]))
