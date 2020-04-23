@@ -4,6 +4,6 @@ def solution(s):
     try:
         int(s)
     except ValueError:
-        return False
+        return False 
 
     return True
