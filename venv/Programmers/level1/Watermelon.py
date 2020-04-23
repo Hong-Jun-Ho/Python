@@ -3,4 +3,4 @@ def solution(n):
     b = a * (n // 2 + 1)
     answer = b[:n]
 
-    return answer
+    return answer 
