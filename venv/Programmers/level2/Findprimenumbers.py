@@ -1,4 +1,4 @@
-## 소수 찾기
+## 소수 찾기 
 def is_prime_not_bad(n: int) -> bool:
     if n < 2:
         return False
