@@ -7,7 +7,7 @@ def solution(progresses, speeds):
             if n == len(progresses) - 1:
                 count += 1
                 answer.append(count)
-                break
+                break  
             n += 1
             count += 1
         else:
