@@ -1,19 +1,15 @@
 def solution(w, h):
-    def gcm(a, b):
-        gcm = 1
+    def gcd(a, b):
+        gcd = 1
         for k in range(2, min(a, b) + 1):
             while (a % k == 0) and (b % k == 0):
                 a = a // k
                 b = b // k
-                gcm = gcm * k
+                gcd = gcd * k
                 continue
-        return gcm
+        return gcd
 
-    gcm = gcm(w, h)
-    if gcm == 1:
-        answer = w * h - (w + h - 1)
-    else:
-        answer = w * h - (w + h - gcm)
+    answer = w * h - (w + h - gcd(w,h))
 
     return answer
 
